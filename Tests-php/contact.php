@@ -1,7 +1,6 @@
 <? session_start();
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +13,6 @@
 </head>
 <body>
   
-
-
 <?php
 
 if (!isset($_GET['email']) || !isset($_GET['message']))
@@ -39,9 +36,6 @@ if (!isset($_GET['email']) || !isset($_GET['message']))
         <p class="card-text"><b>Message</b> : <?php echo $_GET['message']; ?></p>
     </div>
 </div>
-
-
-
 
 </body>
 </html>
